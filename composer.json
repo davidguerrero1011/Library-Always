@@ -1,0 +1,20 @@
+{
+    "name": "david/library-project",
+    "description": "this is a library project from php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "David\\LibraryProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wilmar David Macias Guerrero",
+            "email": "davidguerrero0709@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
